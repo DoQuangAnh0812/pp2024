@@ -81,7 +81,7 @@ class MarkSheet:
                 if course_id in student.marks:
                     print(f"Marks for student {student_id} in course {course_id} is : {student.marks[course_id]}")
                 else:
-                    print("Marks not found for the given student and course.")
+                    print("Marks not available for the given student and course.")
                 return
         print("Student not found.")
 
