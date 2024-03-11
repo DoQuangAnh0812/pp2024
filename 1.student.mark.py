@@ -43,7 +43,7 @@ def show_student_marks(students, courses, marks):
     if key in marks:
         print(f"Marks for student {student_id} in course {course_id} is : {marks[key]}")
     else:
-        print("Marks not found for the given student and course.")
+        print("Marks not available for the given student and course.")
 
 
 students = input_students()
@@ -52,3 +52,4 @@ marks = input_marks(students, courses)
 list_students(students)
 list_courses(courses)
 show_student_marks(students, courses, marks)
+
