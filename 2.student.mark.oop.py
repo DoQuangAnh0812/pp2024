@@ -59,7 +59,7 @@ class MarkSheet:
         if key in self.marks:
             print(f"Marks for student {student_id} in course {course_id} is : {self.marks[key]}")
         else:
-            print("Marks not found for the given student and course.")
+            print("Marks not available for the given student and course.")
 
 mark_sheet = MarkSheet()
 mark_sheet.input_students()
